@@ -31,44 +31,8 @@
  [AdvancedYpa](https://youth-advanced.netlify.app/) 
  
 
- 
-# My React.js,Node.js Projects 
 
-https://github.com/Kaung-Htet-Aung/pj_show
 
-https://github.com/Kaung-Htet-Aung/react-todo-list
-
-https://github.com/Kaung-Htet-Aung/react-quick
-
-https://github.com/Kaung-Htet-Aung/react-shopping-list
-
-https://github.com/Kaung-Htet-Aung/react-season
-
-https://github.com/Kaung-Htet-Aung/react-redux
-
-https://github.com/Kaung-Htet-Aung/react-mui
-
-https://github.com/Kaung-Htet-Aung/react-filter
-
-# My Javascript Projects 
-
-https://github.com/Kaung-Htet-Aung/Joke
-
-https://github.com/Kaung-Htet-Aung/Course
-
-https://github.com/Kaung-Htet-Aung/Chat_App
-
-https://github.com/Kaung-Htet-Aung/LoanCalculator
-
-https://github.com/Kaung-Htet-Aung/RGB_GAME
-
-https://github.com/Kaung-Htet-Aung/MessagePass
-
-https://github.com/Kaung-Htet-Aung/PhoneCharging
-
-https://github.com/Kaung-Htet-Aung/WeatherApp
-
-https://github.com/Kaung-Htet-Aung/PhotoEditor
 # My Php,Java Projects
 
 https://github.com/Kaung-Htet-Aung/Asaung
