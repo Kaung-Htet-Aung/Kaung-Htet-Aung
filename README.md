@@ -1,49 +1,54 @@
-"use client";
+<h1 align="center">Hi there, I'm Kaung Htet Aung! 👋</h1>
 
-import { useState, useEffect } from "react";
+<p align="center">
+  <em>Passionate developer building seamless web and mobile experiences.</em>
+</p>
 
-export default function DesktopTop() {
-  const [time, setTime] = useState("");
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaung-htet-aung&show_icons=true&theme=radical" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaung-htet-aung&layout=compact" alt="Top Languages"/>
+</div>
 
-  useEffect(() => {
-    const updateTime = () => {
-      // Create a formatter specifically for Myanmar Time
-      const formatter = new Intl.DateTimeFormat("en-US", {
-        timeZone: "Asia/Yangon",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false, // Set to true if you want AM/PM
-      });
+---
 
-      setTime(formatter.format(new Date()));
-    };
+<h3 align="center">🛠️ Tech Stack & Tools</h3>
 
-    // Set the time immediately on mount
-    updateTime();
+<p align="center">
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React Native" />
+  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI" />
+  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+  <br />
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
+</p>
 
-    // Update the time every 10 seconds to ensure it stays in sync
-    const interval = setInterval(updateTime, 10000);
+---
 
-    // Cleanup interval on component unmount
-    return () => clearInterval(interval);
-  }, []);
+## 🚀 Featured Projects
 
-  return (
-    <header
-      className="relative z-10 w-full md:h-20 h-8 md:border-b dark:border-[#F8843F]/30  border-zinc-700/50 flex items-start md:items-center justify-between px-8"
-      id="home"
-    >
-      {/* Solution 2: The Watermark Logo */}
-      <div className="hidden md:block text-xs tracking-[0.4em] text-zinc-400 dark:text-zinc-500 dark:hover:text-zinc-900 uppercase hover:text-zinc-200 transition-colors">
-        Kaung Htet Aung
-      </div>
-      
-      {/* Fixed Timezone to Myanmar Time (MMT) with live indicator */}
-      <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border dark:border-zinc-200 dark:bg-zinc-50 border-zinc-800/80 bg-zinc-900/30 text-[10px] sm:text-xs dark:text-zinc-600 text-zinc-300 tracking-wider min-w-[120px] justify-center">
-        <span className="w-1.5 h-1.5 rounded-full bg-[#51C29A] animate-pulse shrink-0"></span>
-        {/* Hydration fallback: show --:-- until the client-side time loads */}
-        (MMT) {time || "--:--"}
-      </div>
-    </header>
-  );
-}
+Here is a collection of my best work, categorized by platform and technology.
+
+### 🌐 Web Applications & Best Projects
+* [**HostelHub**](https://hostel-stu.netlify.app/) - Live Demo
+* [**AdvancedYpa**](https://youth-advanced.netlify.app/) - Live Demo
+* [**Furniture**](https://github.com/Kaung-Htet-Aung/furniture)
+* [**Welcome Voting 2025**](https://github.com/Kaung-Htet-Aung/welcome-voting2025)
+* [**PJ Show**](https://github.com/Kaung-Htet-Aung/pj_show)
+* [**KIS Burma**](https://github.com/Kaung-Htet-Aung/kisburma)
+
+### 📱 React Native Projects
+* [**PhatMal**](https://github.com/Kaung-Htet-Aung/PhatMal)
+* [**JoyBox**](https://github.com/Kaung-Htet-Aung/JoyBox)
+
+### ☕ PHP & Java Projects
+* [**Asaung**](https://github.com/Kaung-Htet-Aung/Asaung)
+* [**Yaythant**](https://github.com/Kaung-Htet-Aung/Yaythant)
+* [**MatMal**](https://github.com/Kaung-Htet-Aung/MatMal)
+
+---
+
+<p align="center">
+  <i>Let's connect and build something awesome together!</i>
+</p>
