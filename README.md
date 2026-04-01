@@ -50,6 +50,7 @@
 
 | Project             | Description              | Tech         | Link                                                  |
 | ------------------- | ------------------------ | ------------ | ----------------------------------------------------- |
+| Portfolio           | Portfolio                | Next.js      | https://kaunghtetaung.vercel.app/                     |
 | HostelHub           | Hostel Management System | React        | https://hostel-stu.netlify.app/                       |
 | AdvancedYpa         | Youth Management System  | React        | https://youth-advanced.netlify.app/                   |
 | Furniture           | Furniture Shop Website   | React        | https://github.com/Kaung-Htet-Aung/furniture          |
