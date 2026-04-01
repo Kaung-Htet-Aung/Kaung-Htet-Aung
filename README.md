@@ -45,14 +45,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kaung-Htet-Aung&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kaung-Htet-Aung&theme=tokyonight" />
-</p>
-
----
 
 ## 🚀 Featured Projects
 
@@ -80,7 +72,7 @@
   <a href="https://github.com/Kaung-Htet-Aung">
     <img src="https://skillicons.dev/icons?i=github" />
   </a>
-  <a href="https://www.linkedin.com/">
+  <a href="https://www.linkedin.com/in/kaung-htet-aung-595979233/">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
 </p>
