@@ -1,17 +1,18 @@
-<h1 align="center">Hi there, I'm Kaung Htet Aung 👋</h1>
+<h1 align="left">Hi there, I'm Kaung Htet Aung 👋</h1>
 
-<p align="center">
-  <em>Final-year Computer Science student & Full-Stack Developer based in Magway, Myanmar.</em><br/>
+<p align="left">
+  I am Full Stack Developer based in Magway, Myanmar<br/>
   Specializing in building scalable, modern web and mobile applications.
 </p>
 
-<p align="center">
+<p align="left">
   🌱 <b>Currently building with:</b> React, Node.js, and React Native (Expo)<br/>
+
   🚀 <b>Currently learning:</b> AWS, Python, and Data Engineering<br/>
-  📫 <b>Reach me at:</b> <a href="mailto:your-email@example.com">your-email@example.com</a>
+
+  📫 <b>Reach me at:</b> <a href="mailto:kaunghtetaung374@gmail.com">kaunghtetaung374@gmail.com</a>
 </p>
 
----
 
 ## 🛠️ Tech Stack
 
