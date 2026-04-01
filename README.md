@@ -1,79 +1,92 @@
-<h1 align="left">Hi there, I'm Kaung Htet Aung 👋</h1>
+<h1 align="center">Hi 👋, I'm Kaung Htet Aung</h1>
+<h3 align="center">Full Stack Developer from Myanmar</h3>
 
-<p align="left">
-  I am Full Stack Developer based in Magway, Myanmar<br/>
-  Specializing in building scalable, modern web and mobile applications.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3000&color=00ADB5&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;React+%7C+Node.js+%7C+React+Native;Building+Web+and+Mobile+Apps;Always+Learning+New+Technologies" />
 </p>
 
-<p align="left">
-  🌱 <b>Currently building with:</b> React, Node.js, and React Native (Expo)<br/>
+---
 
-  🚀 <b>Currently learning:</b> AWS, Python, and Data Engineering<br/>
+## 🚀 About Me
 
-  📫 <b>Reach me at:</b> <a href="mailto:kaunghtetaung374@gmail.com">kaunghtetaung374@gmail.com</a>
-</p>
+* 💻 I am a **Full Stack Developer** based in Magway, Myanmar
+* 🌐 I build **modern web and mobile applications**
+* 🌱 Currently learning **AWS, Python, and Data Engineering**
+* 🎯 Goal: Become a **Software Engineer / Backend Engineer**
+* 📫 Reach me at: **[kaunghtetaung374@gmail.com](mailto:kaunghtetaung374@gmail.com)**
 
+---
 
 ## 🛠️ Tech Stack
 
-<div align="left">
-  <h3>Frontend & UI</h3>
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI" />
-  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
+### Frontend
 
-  <h3>Backend & Cloud</h3>
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
-  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,mui,bootstrap" />
+</p>
 
-  <h3>Mobile</h3>
-  <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37" alt="Expo" />
-</div>
+### Backend
 
-<h3 align="left">🛠️ Tech Stack & Tools</h3>
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,php,java" />
+</p>
 
-<p align="left">
-  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React Native" />
-  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white" alt="Material UI" />
-  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap" />
-  <br />
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
+### Mobile
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,expo" />
+</p>
+
+### Tools & Cloud
+
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,git,github,vscode,figma,postman,mysql,mongodb" />
+</p>
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Kaung-Htet-Aung&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kaung-Htet-Aung&theme=tokyonight" />
 </p>
 
 ---
 
 ## 🚀 Featured Projects
 
-Here is a collection of my best work, categorized by platform and technology.
+| Project             | Description              | Tech         | Link                                                  |
+| ------------------- | ------------------------ | ------------ | ----------------------------------------------------- |
+| HostelHub           | Hostel Management System | React        | https://hostel-stu.netlify.app/                       |
+| AdvancedYpa         | Youth Management System  | React        | https://youth-advanced.netlify.app/                   |
+| Furniture           | Furniture Shop Website   | React        | https://github.com/Kaung-Htet-Aung/furniture          |
+| Welcome Voting 2025 | Online Voting System     | React + Node | https://github.com/Kaung-Htet-Aung/welcome-voting2025 |
+| PJ Show             | Product Showcase Website | React        | https://github.com/Kaung-Htet-Aung/pj_show            |
+| KIS Burma           | Organization Website     | React        | https://github.com/Kaung-Htet-Aung/kisburma           |
+| PhatMal             | Delivery Mobile App      | React Native | https://github.com/Kaung-Htet-Aung/PhatMal            |
+| JoyBox              | Mobile App               | React Native | https://github.com/Kaung-Htet-Aung/JoyBox             |
+| Asaung              | Java/PHP Project         | Java         | https://github.com/Kaung-Htet-Aung/Asaung             |
+| Yaythant            | Java Project             | Java         | https://github.com/Kaung-Htet-Aung/Yaythant           |
 
-### 🌐 Web Applications & Best Projects
-* [**HostelHub**](https://hostel-stu.netlify.app/) - Live Demo
-* [**AdvancedYpa**](https://youth-advanced.netlify.app/) - Live Demo
-* [**Furniture**](https://github.com/Kaung-Htet-Aung/furniture)
-* [**Welcome Voting 2025**](https://github.com/Kaung-Htet-Aung/welcome-voting2025)
-* [**PJ Show**](https://github.com/Kaung-Htet-Aung/pj_show)
-* [**KIS Burma**](https://github.com/Kaung-Htet-Aung/kisburma)
+---
 
-### 📱 React Native Projects
-* [**PhatMal**](https://github.com/Kaung-Htet-Aung/PhatMal)
-* [**JoyBox**](https://github.com/Kaung-Htet-Aung/JoyBox)
+## 📫 Connect With Me
 
-### ☕ PHP & Java Projects
-* [**Asaung**](https://github.com/Kaung-Htet-Aung/Asaung)
-* [**Yaythant**](https://github.com/Kaung-Htet-Aung/Yaythant)
-* [**MatMal**](https://github.com/Kaung-Htet-Aung/MatMal)
+<p>
+  <a href="mailto:kaunghtetaung374@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" />
+  </a>
+  <a href="https://github.com/Kaung-Htet-Aung">
+    <img src="https://skillicons.dev/icons?i=github" />
+  </a>
+  <a href="https://www.linkedin.com/">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+</p>
 
 ---
 
 <p align="center">
-  <i>Let's connect and build something awesome together!</i>
+  <i>Let's connect and build something awesome together! 🚀</i>
 </p>
