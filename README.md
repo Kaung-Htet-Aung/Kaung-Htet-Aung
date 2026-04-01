@@ -1,48 +1,49 @@
-# Hi there,I'm Kaung Htet Aung!
+"use client";
 
-<img align="left"  width="47%" src="https://github-readme-stats.vercel.app/api?username=kaung-htet-aung&show_icons=true&theme=radical"/>
-<img align="left" width="47%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaung-htet-aung&layout=compact"/>
-<img align="left" src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<img align="left" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-<img align="left" src="https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)"/>
-<img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-<img align="left" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-<img align="left" src="https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)"/>
-<img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+import { useState, useEffect } from "react";
 
-# My Best Projects 
- 
- https://github.com/Kaung-Htet-Aung/furniture
+export default function DesktopTop() {
+  const [time, setTime] = useState("");
 
- https://github.com/Kaung-Htet-Aung/welcome-voting2025
- 
- https://github.com/Kaung-Htet-Aung/pj_show
+  useEffect(() => {
+    const updateTime = () => {
+      // Create a formatter specifically for Myanmar Time
+      const formatter = new Intl.DateTimeFormat("en-US", {
+        timeZone: "Asia/Yangon",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false, // Set to true if you want AM/PM
+      });
 
- https://github.com/Kaung-Htet-Aung/JoyBox
- 
- https://github.com/Kaung-Htet-Aung/Yaythant
- 
- https://github.com/Kaung-Htet-Aung/Asaung
- 
- https://github.com/Kaung-Htet-Aung/kisburma
- 
- [HostelHub](https://hostel-stu.netlify.app/) 
- 
- [AdvancedYpa](https://youth-advanced.netlify.app/) 
- 
+      setTime(formatter.format(new Date()));
+    };
 
+    // Set the time immediately on mount
+    updateTime();
 
+    // Update the time every 10 seconds to ensure it stays in sync
+    const interval = setInterval(updateTime, 10000);
 
-# My Php,Java Projects
+    // Cleanup interval on component unmount
+    return () => clearInterval(interval);
+  }, []);
 
-https://github.com/Kaung-Htet-Aung/Asaung
-
-https://github.com/Kaung-Htet-Aung/MatMal
-
-https://github.com/Kaung-Htet-Aung/Yaythant
-
-# My React Native  Projects
-
-https://github.com/Kaung-Htet-Aung/PhatMal
-
-https://github.com/Kaung-Htet-Aung/JoyBox
+  return (
+    <header
+      className="relative z-10 w-full md:h-20 h-8 md:border-b dark:border-[#F8843F]/30  border-zinc-700/50 flex items-start md:items-center justify-between px-8"
+      id="home"
+    >
+      {/* Solution 2: The Watermark Logo */}
+      <div className="hidden md:block text-xs tracking-[0.4em] text-zinc-400 dark:text-zinc-500 dark:hover:text-zinc-900 uppercase hover:text-zinc-200 transition-colors">
+        Kaung Htet Aung
+      </div>
+      
+      {/* Fixed Timezone to Myanmar Time (MMT) with live indicator */}
+      <div className="flex items-center gap-2 px-4 py-1.5 rounded-full border dark:border-zinc-200 dark:bg-zinc-50 border-zinc-800/80 bg-zinc-900/30 text-[10px] sm:text-xs dark:text-zinc-600 text-zinc-300 tracking-wider min-w-[120px] justify-center">
+        <span className="w-1.5 h-1.5 rounded-full bg-[#51C29A] animate-pulse shrink-0"></span>
+        {/* Hydration fallback: show --:-- until the client-side time loads */}
+        (MMT) {time || "--:--"}
+      </div>
+    </header>
+  );
+}
