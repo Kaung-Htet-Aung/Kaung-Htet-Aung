@@ -16,7 +16,7 @@
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+<div align="left">
   <h3>Frontend & UI</h3>
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
   <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
@@ -36,7 +36,7 @@
   <img src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37" alt="Expo" />
 </div>
 
-<h3 align="center">🛠️ Tech Stack & Tools</h3>
+<h3 align="left">🛠️ Tech Stack & Tools</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
