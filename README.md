@@ -1,13 +1,15 @@
-<h1 align="center">Hi there, I'm Kaung Htet Aung! 👋</h1>
+<h1 align="center">Hi there, I'm Kaung Htet Aung 👋</h1>
 
 <p align="center">
-  <em>Passionate developer building seamless web and mobile experiences.</em>
+  <em>Final-year Computer Science student & Full-Stack Developer based in Magway, Myanmar.</em><br/>
+  Specializing in building scalable, modern web and mobile applications.
 </p>
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=kaung-htet-aung&show_icons=true&theme=radical" alt="GitHub Stats"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kaung-htet-aung&layout=compact" alt="Top Languages"/>
-</div>
+<p align="center">
+  🌱 <b>Currently building with:</b> React, Node.js, and React Native (Expo)<br/>
+  🚀 <b>Currently learning:</b> AWS, Python, and Data Engineering<br/>
+  📫 <b>Reach me at:</b> <a href="mailto:your-email@example.com">your-email@example.com</a>
+</p>
 
 ---
 
